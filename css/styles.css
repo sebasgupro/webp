@@ -15,9 +15,7 @@ position: -webkit-sticky;
   top: 0;
 }
 
-footer {
-  margin-right: 30px;
-}
+
 
 .sticky {
   position: -webkit-sticky;
@@ -104,3 +102,61 @@ footer {
 	.a:visited { 
 	color:black;
 	}
+
+ p {
+    font-family:'IBM Plex Sans', sans-serif; 
+    text-align: justify; 
+    font-size: 12px;
+    max-width: 500px;
+  }
+
+  .fotoflex {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 10px;
+    left: 50px;
+    justify-content: space-between;
+    align-items:flex-start;
+  }
+ 
+
+  .fotoF {
+      flex-wrap: wrap;
+  }
+
+  .videoF {
+    flex-wrap: wrap;
+  }
+
+  .urbalaF {
+    flex-wrap: wrap;
+    align-content: center;
+  }
+
+  .footflex{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 10px;
+    left: 50px;
+    justify-content: space-between;
+    align-items:flex-start;
+    margin-left: 30px;
+  }
+
+  .cF {
+    flex-wrap: wrap;
+    display: inline-block;
+  }
+
+  #contacto {
+    padding: 100px;
+  margin-top: 60px;
+	height:max-content;
+  width: 100%;
+  background-color: #FFF;
+  text-align: left;
+  
+}
+ 
