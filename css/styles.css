@@ -159,8 +159,5 @@ position: -webkit-sticky;
   text-align: left;
   
 }
- @media screen and (max-width: 475px) {
 
- .fotoF {max-width: 450px;}
-}
  
